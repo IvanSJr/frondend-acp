@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import MyCrud from './components/MyCrud.vue'
+import MyCrud from './components/ListaProdutos.vue'
 
 export default {
   name: 'App',
