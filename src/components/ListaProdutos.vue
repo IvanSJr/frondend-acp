@@ -36,7 +36,7 @@ export default {
   },
   data() {
     return {
-      produtos : [],
+      produtos : []
     }
   },
   created() {
