@@ -36,14 +36,7 @@ export default {
   },
   data() {
     return {
-      produtos : [
-      {"id":1,"nome":"Produto1","preco":2.20,"codigo":"asdaa","categoria":"CATEGORIA_1","status":"EM_ESTOQUE"},
-      {"id":2,"nome":"Produto2","preco":10.21,"codigo":"asdasasa","categoria":"CATEGORIA_3","status":"SEM_ESTOQUE"},
-      {"id":3,"nome":"Produto3","preco":23.23,"codigo":"bssswwas","categoria":"CATEGORIA_2","status":"EM_ESTOQUE"},
-      {"id":4,"nome":"Produto4","preco":30.23,"codigo":"csdassa","categoria":"CATEGORIA_1","status":"BAIXO_ESTOQUE"},
-      {"id":5,"nome":"Produto5","preco":555.50,"codigo":"dsdasasa","categoria":"CATEGORIA_2","status":"BAIXO_ESTOQUE"},
-      {"id":6,"nome":"Produto6","preco":501.0,"codigo":"esdaasa","categoria":"CATEGORIA_1","status":"SEM_ESTOQUE"},
-      {"id":7,"nome":"Produto7","preco":502.21,"codigo":"fassasa","categoria":"CATEGORIA_3","status":"BAIXO_ESTOQUE"},]
+      produtos : [],
     }
   },
   created() {
